@@ -1,0 +1,120 @@
+/* global setting*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+body, html {
+  height: 100%;
+}
+h1 {
+  font-family: 'Cherry Swash', cursive;
+  font-size: 4em;
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 8px;
+}
+.header-link{
+  color: #000000;
+}
+.yellow-link{
+  color: #7F6B00;
+  
+}
+.blue-link{
+  color:  #01ABAA;
+}
+.intro {
+  color: #000000;
+  padding: 50px 75px 40px 0;
+  background-image: repeating-linear-gradient(45deg,
+    #EDE465 1px,
+    #01ABAA 1px,
+  white 5px)
+}
+.banner {
+  width: 1200;
+  height: 500px;
+  background-image: url(https://static.wonderfulunion.net/groundctrl/clients/cher/media/14/00/slides/source_assets/original.5e183b909b03fbf4747ae0c1353018b6d8fa8c69.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+p {
+  font-size: 2em;
+  padding-left: 75px;
+  font-weight: bold;
+}
+#row1 {
+  background-color: #EDE465;
+}
+#col1 {
+  padding-top: 50px;
+}
+#col1 p {
+  color: #000000;
+}
+#col2, #col8 {
+  overflow: hidden;
+}
+
+.young {
+  width: 700px;
+  margin-right: 0;
+}
+#row3 {
+  background-color: #01ABAA;
+  height: 400px;
+}
+.album {
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 250px;
+  height: 250px;
+  margin-left: 50px;
+  padding-right: 20px;
+}
+#row3 p {
+  color: white;
+  position: relative;
+}
+.movie {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+  position: relative;
+  width: 300px;
+}
+#col6 p, #col7 p {
+  margin-top: 50px;
+}
+.footer {
+  width: 1200;
+  height: 200px;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin: 0 -15px;
+  color: #01ABAA;
+}
+.footer h2{
+  margin: 50px 30px 10px 30px;
+}
+.footer h3{
+  margin: 0 45px;
+}
+.developer {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  
+}
+.developer p {
+  color: #7F6B00;
+  font-size: 1em;
+  margin: 0;
+}
